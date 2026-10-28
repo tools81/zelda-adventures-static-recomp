@@ -1,0 +1,19 @@
+# disc image and data extracted from it
+rom/
+extracted/
+# build output
+build/
+run/
+*.exe
+saves/
+*.log
+cmp/
+
+# packaged releases (package.ps1)
+dist/
+
+# generated from the game's program (tools/gen.py, tools/gen_tests.py)
+gen/
+test/insn_tests.c
+test/alu_vectors.h
+__pycache__/

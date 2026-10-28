@@ -1,0 +1,36 @@
+{
+  "title": "Zelda's Adventure",
+  "exe_name": "zelda",
+  "version": "1.0.0",
+  "update_repo": "tools81/zelda-adventures-static-recomp",
+  "tv": "pal",
+  "modules": [
+    {
+      "file": "auto",
+      "base": "0x100000",
+      "extra_entries": [],
+      "a5_table": "auto"
+    }
+  ],
+  "invincibility": {
+    "damage_insn": "0x110e5a",
+    "victim_reg": "a2",
+    "globals": "0x140028",
+    "player": "0x139a",
+    "health": "0x22",
+    "max_health": "0x13f2"
+  },
+  "sprites": {
+    "draw": [
+      "0x117454",
+      "0x117482",
+      "0x117932",
+      "0x1179a4",
+      "0x117cea",
+      "0x117d44"
+    ],
+    "restore": [
+      "0x117640"
+    ]
+  }
+}
